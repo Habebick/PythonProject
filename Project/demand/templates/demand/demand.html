@@ -1,0 +1,58 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+{% block content %}
+    <div class="demand">
+        <h1>Востребованность</h1>
+        <div class="demand-main">
+            <div class="demand-table">
+                <h2>Динамика количества вакансий по годам</h2>
+                <img src="{% static 'main/img/0.png' %}">
+                    {% for el in demands %}
+                    {% if el.name == '0' %}
+                <ul>
+                    <li>{{ el.year }}</li>
+                    <li>{{ el.count }}</li>
+                </ul>
+                    {% endif %}
+                    {% endfor %}
+            </div>
+            <div class="demand-table">
+                <h2>Динамика количества вакансий по годам для инженера-программиста</h2>
+                <img src="{% static 'main/img/1.png' %}">
+                    {% for el in demands %}
+                    {% if el.name == '1' %}
+                <ul>
+                    <li>{{ el.year }}</li>
+                    <li>{{ el.count }}</li>
+                </ul>
+                    {% endif %}
+                    {% endfor %}
+            </div>
+            <div class="demand-table">
+                <h2>Динамика уровня зарплат по годам</h2>
+                <img src="{% static 'main/img/2.png' %}">
+                    {% for el in demands %}
+                    {% if el.name == '2' %}
+                <ul>
+                    <li>{{ el.year }}</li>
+                    <li>{{ el.count }}</li>
+                </ul>
+                    {% endif %}
+                    {% endfor %}
+            </div>
+            <div class="demand-table">
+                <h2>Динамика уровня зарплат по годам для инженера-программиста</h2>
+                <img src="{% static 'main/img/3.png' %}">
+                    {% for el in demands %}
+                    {% if el.name == '3' %}
+                <ul>
+                    <li>{{ el.year }}</li>
+                    <li>{{ el.count }}</li>
+                </ul>
+                    {% endif %}
+                    {% endfor %}
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

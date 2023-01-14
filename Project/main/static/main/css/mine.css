@@ -1,0 +1,158 @@
+body{
+    background: #2c2c2c;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+aside{
+    float: left;
+    background: #181818;
+    width: 20%;
+    padding: 2.5%;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+aside h3{
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+aside ul{list-style: none}
+aside ul li{
+    color: #fff;
+    display: block;
+    margin-top: 30px;
+    transition: transform .6s ease;
+}
+aside ul li:hover, aside ul a:hover{
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+a{
+    text-decoration: none;
+}
+
+main .features {
+    color: #fff;
+    padding-top: 50px;
+    text-align: center;
+    width: 75%;
+    margin-left: 280px;
+}
+
+main .features h1{
+    font-size: 50px;
+    color: yellow;
+}
+main .features h2{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+main .features p{
+    max-width: 80%;
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+aside span{
+    font-size: 29px;
+    color: white;
+}
+
+aside img{
+    width: 60px;
+    height: auto;
+}
+
+aside h2{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+
+.table li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    font-size: 15px;
+}
+.main-table img{
+    float: left;
+    margin-left: 50px;
+    width: 1000px;
+    height: auto;
+}
+.main-table{
+    padding: 50px;
+}
+.table{
+    margin-bottom: 30px;
+    background-color: #2F4F4F;
+}
+.table h2{
+    color: white;
+}
+
+.skills{
+    padding: 100px;
+    text-align: center;
+    width: 85%;
+    margin-left: 250px;
+    color: #fff;
+}
+
+.hhru{
+    padding: 100px;
+    text-align: center;
+    width: 85%;
+    margin-left: 320px;
+    color: #fff;
+}
+.page-footer{
+    color: #fff;
+    background: #181818;
+    height: 50px;
+
+}
+.page-footer p{
+    text-align:center;
+}
+
+.features li{
+    margin-left: 250px;
+    text-align: left;
+}
+.demand-main img{
+    float: left;
+    margin-left: 50px;
+    width: 900px;
+}
+.demand-table li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    font-size: 15px;
+}
+.demand{
+    text-align: center;
+    width: 85%;
+    margin-left: 250px;
+    color: #fff;
+}
+.demand-table{
+    padding: 150px;
+    margin-bottom: 0px;
+}
+.demand-table h2{
+    margin-bottom: 30px;
+}

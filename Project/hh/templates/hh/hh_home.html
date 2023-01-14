@@ -1,0 +1,15 @@
+{% extends 'main/layout.html' %}
+
+{% block content %}
+    <div class="hhru">
+        <h1>Недавние вакансии</h1>
+        {% for el in hh %}
+        <div class="alert alert-warning">
+            {% for cr in el %}
+            <h3>{{cr}}</h3>
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+{% endblock %}
+{% block title %}Новости {% endblock %}
