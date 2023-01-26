@@ -30,7 +30,7 @@ def hh_home(request):
         B=[]
         for x in C:
             for i in x:
-                i = re.sub(r'<[^<>]*>', '', i)
+                i = re.sub('<.*?>', '', i)
                 A.append(i)
             B.append(A)
             A=[]
